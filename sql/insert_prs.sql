@@ -1,15 +1,3 @@
--- insert some rows into the vendors table
-INSERT INTO vendors VALUES 
-(1, 'SNBX4DD3OL', 'Blessing Software', '4900 Parkway Drive', 'Mason', 'OH', '45249', '5133223388', 'snblessing@gmail.com', 1),
-(2, 'JFNC8MLR9P', 'Neyer Brewing', '3285 Haberdasham Court', 'Cincinnati', 'OH', '45330', '5136928315', 'james@neyerbrewing.com', 0);
-
--- insert some rows into the products table
-INSERT INTO products VALUES
-(1, 'Murachs Java', '781890774653', 57.50, '1 BK', 1, ''),
-(2, 'Blessings Guide to Spring', '842-81184181181', 13.25, '1 BOOK', 1, ''),
-(3, 'Simcoe Hops', '42VHOP', 12.50, '1 POUND', 2, ''),
-(4, 'Bourbon Barrel', 'BBARREL', 300.00, '1 BARREL', 2, '');
-
 -- insert some rows into the users table
 INSERT INTO users VALUES
 (1, 'Bono', 'Bono_Vox', 'Paul', 'Hewson', '5022233125', 'bono@u2.com', 1),
