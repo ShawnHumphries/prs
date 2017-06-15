@@ -19,9 +19,10 @@ public class DBUtil {
             try 
             {
                 // set the db url, username, and password
+            	Class.forName("com.mysql.jdbc.Driver");
                 String url = "jdbc:mysql://localhost:3306/prs";
                 String username = "prs_user";
-                String password = "sesame";
+                String password = "Lemon123";
 
                 // get and return the connection
                 connection = DriverManager.getConnection(url, username, password);
@@ -31,7 +32,12 @@ public class DBUtil {
             {
                 System.out.println(e);
                 return null;
-            }            
+            } 
+            catch (ClassNotFoundException e) {
+				// TODO Auto-generated catch block
+				e.printStackTrace();
+				return null;
+			}            
         }
     }
     
